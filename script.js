@@ -1,5 +1,5 @@
  // === CONFIG — EDIT THESE IF NEEDED ===
-    const WHATSAPP_NUMBER = "+918598471426"; // Komal's number (with country code)
+    const WHATSAPP_NUMBER = "+918595471426"; // Komal's number (with country code)
     const DEFAULT_MSG = "Hey Komal! Free website audit chahiye. Business brief: ";
 
     // Helper to build wa.me links
@@ -36,4 +36,5 @@
         const msg = `${DEFAULT_MSG} (${tagMap[k]})`;
         el.href = wa(msg);
       });
+
     });
